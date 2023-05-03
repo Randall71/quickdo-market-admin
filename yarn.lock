@@ -6898,6 +6898,13 @@ react-native-codegen@^0.71.5:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
+react-native-element-textinput@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-element-textinput/-/react-native-element-textinput-2.2.0.tgz#b3a5448359e93492eaaa1fce86374ded241dba5c"
+  integrity sha512-fLq0F/Z98N/ISruiuyKiaeM1fQaNb/CLIAC9vQ16f1zFd1thsLBEXusUCFhTEs6KlVZ4BWOnVPMAZXFNr5zfDg==
+  dependencies:
+    react-native-virtualized-view "*"
+
 react-native-gesture-handler@~2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-2.9.0.tgz#2f63812e523c646f25b9ad660fc6f75948e51241"
@@ -6939,6 +6946,16 @@ react-native-screens@~3.20.0:
   dependencies:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
+
+react-native-size-scaling@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/react-native-size-scaling/-/react-native-size-scaling-0.5.1.tgz#a1a7f91905e11fc6bba0a5178dc308aca7a76ec8"
+  integrity sha512-OVRox11fjpwUR7DQIPH/4RAhwkqm/r7lKYl5w0dEogFZ3Rz9CK7Bua7oaPLmVP2QnWP0rc0bpgkMc/Rl8ik1yw==
+
+react-native-virtualized-view@*:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-virtualized-view/-/react-native-virtualized-view-1.0.0.tgz#fd2129f1309d1ff4b9e869d5050e803640ca64c5"
+  integrity sha512-7YyFMMkNzJ787/giGkKcm0JEx0IcLEE/XHREGz2I4K1RISQGFjEDe6iWsapOnHSR/e1vhebZJ8VmqhSpg5YPzg==
 
 react-native-web@~0.18.7:
   version "0.18.12"
