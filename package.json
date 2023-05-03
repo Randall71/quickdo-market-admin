@@ -34,7 +34,8 @@
     "new-component": "^5.0.2",
     "patch-package": "^7.0.0",
     "postinstall-postinstall": "^2.1.0",
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
   },
   "resolutions": {
     "metro": "^0.73.7",
