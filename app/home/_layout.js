@@ -1,5 +1,5 @@
-import { Stack, Tabs } from "expo-router";
+import { Tabs } from 'expo-router'
 
 export default function HomeLayout() {
-  return <Tabs />;
+  return <Tabs />
 }
