@@ -30,7 +30,7 @@ export default function Business() {
           options={{ title: 'Détail business', headerShown: true }}
         />
 
-        <Text style={{ fontSize: 32 }}>{error}</Text>
+        <Text style={{ fontSize: 32 }}>{error} 😞</Text>
       </View>
     )
   }

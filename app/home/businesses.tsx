@@ -15,7 +15,7 @@ export default function BussinessesScreen() {
   }
 
   if (status === 'error') {
-    return <Text style={{ fontSize: 32 }}>{error}</Text>
+    return <Text style={{ fontSize: 32 }}>{error} 😞</Text>
   }
 
   return (

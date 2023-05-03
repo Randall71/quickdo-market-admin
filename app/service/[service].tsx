@@ -23,27 +23,14 @@ export default function Service() {
   }
 
   if (status === 'error') {
-    return <Text style={{ fontSize: 32 }}>{error}</Text>
+    return <Text style={{ fontSize: 32 }}>{error} 😞</Text>
   }
 
   if (status === 'success') {
     return (
       <View>
-        {/* <Tabs.Screen
-          options={{
-            href: {
-              pathname: '',
-              params: {
-                service: '',
-              },
-            },
-          }}
-        /> */}
         <Stack.Screen options={{ title: value.name }} />
-        {/* <Text style={{ fontSize: 14, fontWeight: 'bold', marginVertical: 15 }}>
-          Nom du service
-        </Text>
-        <Text style={{ fontSize: 18 }}>{value.description}</Text> */}
+
         <Text style={{ fontSize: 14, fontWeight: 'bold', marginVertical: 15 }}>
           Description
         </Text>
