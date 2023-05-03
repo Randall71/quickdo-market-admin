@@ -1,0 +1,41 @@
+diff --git a/node_modules/new-component/src/helpers.js b/node_modules/new-component/src/helpers.js
+index 92b5714..8a74231 100644
+--- a/node_modules/new-component/src/helpers.js
++++ b/node_modules/new-component/src/helpers.js
+@@ -31,7 +31,7 @@ module.exports.getConfig = () => {
+   const currentPath = process.cwd();
+ 
+   const defaults = {
+-    lang: 'js',
++    lang: 'ts',
+     dir: 'src/components',
+   };
+ 
+diff --git a/node_modules/new-component/src/templates/js.js b/node_modules/new-component/src/templates/js.js
+index 296cef9..cf07b97 100644
+--- a/node_modules/new-component/src/templates/js.js
++++ b/node_modules/new-component/src/templates/js.js
+@@ -1,7 +1,7 @@
+-import React from 'react';
++import { View } from 'react-native'
+ 
+ function COMPONENT_NAME() {
+-  return <div></div>;
++  return <View style={{ flex: 1 , justifyContent: 'center' , alignItems: 'center'}}></View>;
+ }
+ 
+ export default COMPONENT_NAME;
+diff --git a/node_modules/new-component/src/templates/ts.js b/node_modules/new-component/src/templates/ts.js
+index 9e68508..cf07b97 100644
+--- a/node_modules/new-component/src/templates/ts.js
++++ b/node_modules/new-component/src/templates/ts.js
+@@ -1,7 +1,7 @@
+-import * as React from 'react';
++import { View } from 'react-native'
+ 
+ function COMPONENT_NAME() {
+-  return <div></div>;
++  return <View style={{ flex: 1 , justifyContent: 'center' , alignItems: 'center'}}></View>;
+ }
+ 
+ export default COMPONENT_NAME;
