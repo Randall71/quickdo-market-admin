@@ -1,6 +1,6 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "quickdo-market-admin",
     "web": {
       "bundler": "metro"
     },
