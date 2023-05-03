@@ -10,13 +10,6 @@ export default function NoteLayout() {
         options={{
           headerShown: true,
           title: 'Détail du service',
-          headerBackVisible: true,
-          headerTransparent: false,
-          headerStyle: {
-            // backgroundColor: 'orange',
-            elevation: 0,
-          },
-          // headerLeft: () => router.back(),
         }}
       />
     </Stack>
