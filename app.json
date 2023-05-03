@@ -5,6 +5,7 @@
       "bundler": "metro"
     },
     "name": "quickdo-market-admin",
-    "slug": "quickdo-market-admin"
+    "slug": "quickdo-market-admin", 
+    "orientation": "portrait"
   }
 }
