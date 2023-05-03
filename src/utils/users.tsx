@@ -1,11 +1,9 @@
-import api from "./api"
+import api from './api'
 
 export const getUsers = async () => {
+  const request = await api('/users', 'GET', { undefined })
 
+  const response = await request.json()
 
-    const request = await api('/users', 'GET' , {undefined} )
-
-    const response = await request.json()
-
-    return response
+  return response
 }
