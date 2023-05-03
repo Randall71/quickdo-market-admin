@@ -3,7 +3,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web", 
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "@types/react": "~18.0.27",
     "babel-plugin-module-resolver": "^5.0.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.39.0",
